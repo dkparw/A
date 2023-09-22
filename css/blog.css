@@ -1,0 +1,22 @@
+#blog{
+    margin-top: 40px;
+    background: transparent;
+}
+#blog h3,h4 {
+    text-align: center;
+}
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#blog article{
+    margin: 15px;
+}
+#blog img{
+    width: 100%;
+    max-width: 280px;
+    object-fit: cover;
+    object-fit: center;
+    background:rgb(205, 203, 203);
+}

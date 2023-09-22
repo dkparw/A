@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lagn="es">
+    <head>
+        <title>SuitSQL: 2articulo</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="../img/18272.png" type="image/x-icon"> <!--.ico-->
+        <meta property="og:image" content="https://github.com/dkparw/dkparw.github.io/blob/main/img/play.png?raw=true">
+        <meta property="og:image:width" content="800">
+        <meta property="og:image:height" content="410">
+        <meta property="og:title" content="TryWork: Home">
+        <link rel="pingback" href="https://diccionarioweb.com/xmlrpc.php">
+        <meta property="og:url" content="https://google.com/">
+        <meta property="og:image:type" content="image/jpeg">
+        <meta name="author" content="ZGtwYXJ3LEx1Q2w=">
+        <meta name="description" content="Apoyar al mundo del estudio...">
+        <meta name="robots" content="noindex">
+        <meta property="og:locale" content="es_ES">
+        <meta property="og:type" content="article">
+        <meta name="theme-color" content="#302d2d">
+        <link rel="stylesheet" type="text/css" href="css/home.css">
+        <link rel="alternate" media="only screen and (max-width: 640px)" href="https://m.facebook.com/">
+        <link rel="alternate" media="handheld" href="https://m.facebook.com/">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+        <script>
+            function Nave(){
+            var compati = /Firefox/.test(navigator.userAgent) || /Chrome/.test(navigator.userAgent);
+            var isEdg = /Edg/.test(navigator.userAgent) && /Tor/.test(navegator.userAgent);
+            if (!compati) {
+                alert("Oki");
+            }else if (isEdg){
+                alert('Esta página no es compatible con el navegador...');
+                window.location.href="https://img2.rtve.es/i/?w=1600&i=1620920852564.jpg"
+            }else{
+                console.log("[0] Estas en el navegador correcto")
+            }
+            }
+        </script>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <link rel="stylesheet" href="../css/fontello.css">
+        <link rel="stylesheet" href="../css/fontello1.css">
+        <link rel="stylesheet" href="../css/estilos.css">
+    </head>
+<body>
+    <div class="progressbar" id="progressbar"></div>
+    <img src="img/flecha.png" alt="Regresar" id="scrollButton" onclick="scrollToTop()">
+    <header>
+        <div class="contenedor">
+           <h1 class="icon-book">HomeWork</h1>
+           <input type="checkbox" id="menu-bar">
+           <label class="icon-menu" for="menu-bar"></label>
+           <nav class="menu">
+              <a href="../index.html">Inicio</a>
+              <a href="../Mante.html">Lenguajes</a>
+              <a href="../Mante.html">Blog</a>
+              <a href="../login.html">Login</a>
+           </nav>
+        </div>
+     </header>
+     <div class="tit">
+     <p class="title1">BASE DE DATOS</p>
+     </div>
+     <div>
+        <a class="iframe" target="_blank" href="https://www.youtube.com/watch?v=eirNt2d9z6E&t=2s?rel=0&amp:autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>Observa el video completo...</a>     <div class="container">
+        <div class="container">
+        <p>
+            Primero, ¿qué es una Base de datos? Es un conjunto de datos almacenados, organizados y relacionados entre sí, un detalle muy importante que hay. 
+
+Esquemas de una base de datos.
+
+
+Es el diseño de la base de datos, se llama esquema de base de datos a las bases que cambian con el tiempo conforme la Información que se inserte o borre, recordemos que al decir esquema nos referimos al diseño y también tenemos que aprender que las bases de datos a medida que va pasando el tiempo pueden instalarse más Información o también se puede eliminar esa información, dentro de los esquemas más conocidos tenemos dos Esquema Físico describe el diseño Físico y el Esquema lógico describe el diseño de Base de Datos en el nivel lógico.
+
+
+¿Cuál es la ventaja de tener una base de datos? 
+
+Independencia de los datos, menor redundancia, mayor seguridad en los datos, datos más documentados, acceso eficiente a los datos, menor espacio de almacenamiento, lo vamos a plasmar en software porque si lo hacemos de una manera manual nuestra Información,
+
+tendremos que tener varios libros teniendo la información en cada uno de nuestros operadores, estos libros tendríamos que almacenarlos en algún almacén y posteriormente tener la información sin base de datos, imagínate qué en un hospital hay mucha información y se clasifica por documento hecho a mano o también trascrita máquina de escribir los cuales a la vez cuando nosotros necesitamos una cita médica generalmente se va a la bodega de información se revisa en que posición se encuentra en que segmento del librero y así sucesivamente hasta llegar a la información se pierde tiempo, seguridad porque, ¿Qué pasa si el libro se pierde? El informe se puede borrar y pueden crear muchos problemas adelante.
+
+Por eso crear una base de datos sirve mucho ahora en la actualidad para guardar mucha información.
+
+Ahora ya sabemos las ventajas de crear un base de datos 
+        </p>
+    </div>
+     </div>
+     <script>
+        const progressBar = document.getElementById("progressbar");
+
+        // Muestra la barra de progreso cuando se carga la página
+        window.addEventListener("load", () => {
+            progressBar.style.display = "block";
+        });
+
+        // Actualiza la barra de progreso al desplazarse por la página
+        window.addEventListener("scroll", () => {
+            const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+            const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrollPercentage = (scrollTop / scrollHeight) * 100;
+            progressBar.style.width = scrollPercentage + "%";
+        });
+    </script>
+    <script>
+        const scrollButton = document.getElementById("scrollButton");
+
+        // Muestra el botón cuando el usuario ha desplazado cierta distancia hacia abajo
+        window.addEventListener("scroll", () => {
+            if (document.documentElement.scrollTop > 200) { // Ajusta el valor según tu preferencia
+                scrollButton.style.display = "block";
+            } else {
+                scrollButton.style.display = "none";
+            }
+        });
+
+        // Función para llevar al usuario al inicio de la página
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth" // Hace que el desplazamiento sea suave
+            });
+        }
+    </script>
+    <div class="More">
+        <p class="más">Leer más 
+        <a href="#" ><img  class="Fle" src="../img/flecha1.png" alt="Flecha de más">
+        <a href="../Docs/BASES DE DATOS.pdf" download><img class="Desc" src="../img/download.png" alt="Descargar" /></a>
+        <!--<button onclick="im()" class="hola" ><img class="Impr" src="../img/imprimir.png" alt="imprimir" /></button>-->
+        <a href="#"><img class="Impr" src="../img/imprimir.png" alt="imprimir" /></a>
+    </p>
+    <script>
+        function im(){
+            window.print();
+        }
+    </script>
+    </div>
+    <footer>
+        <div id="contenedor">
+            <p class="copy">HomeWork &copy; 2023</p>
+            <div class="sociales">
+                <a class="icon-facebook"href="https://www.facebook.com/profile.php?id=100027822451886&mibextid=ZbWKwL"></a>
+                <a class="icon-twitter"href="https://twitter.com/JohnDrake0023"></a>
+                <a class="icon-instagram"href="https://instagram.com/luis_.martine?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"></a>
+                <a class="icon-gplus"href="#"></a>
+            </div>
+        </div>
+     </footer>
+</body>
+</html>
